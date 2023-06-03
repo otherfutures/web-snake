@@ -1,0 +1,44 @@
+/* Game Title */
+body, h1, .header {
+  font-family: 'Playfair', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}  
+
+/* Start Button */
+.start-button {
+  margin-top: 15px;
+  font-family: 'Playfair', serif;
+  background-color: white;
+  color: black; 
+}
+
+/* 
+Game board
+#game-board {
+  width: 500px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: grey;
+  position: relative;
+}
+
+/* Snake 
+.snake {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  position: absolute;
+}
+
+/* Food 
+.food {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+} */
